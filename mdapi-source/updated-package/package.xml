@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>AWSFileUploadController</members>
+    <members>AWSFileUploadControllerTest</members>
+    <members>MockResponseGenerator</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Attachment__c-Attachment Layout</members>
+    <members>awsconnect__mdt-awsconnect Layout</members>
+  </types>
+  <types>
+    <name>LightningComponentBundle</name>
+    <members>fileUploadAWS</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Attachment__c</members>
+    <members>awsconnect__mdt</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Attachment__c.Account__c</members>
+    <members>Attachment__c.FileURL__c</members>
+    <members>Attachment__c.File_Name__c</members>
+    <members>Attachment__c.Opportunity__c</members>
+    <members>awsconnect__mdt.bucketname__c</members>
+    <members>awsconnect__mdt.host__c</members>
+    <members>awsconnect__mdt.key__c</members>
+    <members>awsconnect__mdt.secret__c</members>
+  </types>
+  <version>50.0</version>
+  <fullName>CustomFileUpload</fullName>
+</Package>

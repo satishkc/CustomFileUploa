@@ -1,0 +1,26 @@
+{
+  "orgName": "satishkc company",
+  "edition": "Developer",
+  "features": ["MaxApexCodeSize:10"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "orgPreferenceSettings": {
+      "s1EncryptedStoragePref2": false
+   },
+    "securitySettings": {
+      "sessionSettings": {
+          "sessionTimeout": "TwelveHours"
+      }
+  }
+  }
+}
